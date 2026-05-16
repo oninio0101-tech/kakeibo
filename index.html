@@ -1041,7 +1041,7 @@ const CHARACTER_STAGES = [
   { id: 1, threshold: -200000,  name: '節約モード', status: 'やりくり中。テント暮らし。' },
   { id: 2, threshold: 0,         name: '普通の暮らし', status: 'アパートで仲良く暮らしてます。' },
   { id: 3, threshold: 300000,    name: '小金持ち',   status: '車も買えました！余裕が出てきた。' },
-  { id: 4, threshold: 1000000,   name: '余裕の暮らし', status: '一軒家＋ネコと一緒。幸せ。' },
+  { id: 4, threshold: 1000000,   name: '余裕の暮らし', status: '一軒家＋白いワンコと一緒。幸せ。' },
   { id: 5, threshold: 3000000,   name: 'リッチ生活', status: '豪邸に住んでます。タキシードとドレス。' },
   { id: 6, threshold: 8000000,   name: '城主の夫婦', status: 'お城に住むレベル！金貨もザクザク。' }
 ];
@@ -1197,15 +1197,26 @@ function characterSVG(stageId, moodOverride = null) {
       <rect x="125" y="170" width="50" height="40" fill="#7dd3fc" stroke="#0369a1" stroke-width="1.5"/>
       <rect x="195" y="200" width="55" height="85" fill="#7c2d12"/>
       <circle cx="240" cy="245" r="2.5" fill="#fbbf24"/>
-      <ellipse cx="125" cy="284" rx="22" ry="5" fill="#000" opacity="0.2"/>
-      <ellipse cx="125" cy="277" rx="20" ry="11" fill="#fff"/>
-      <circle cx="108" cy="272" r="9" fill="#fff"/>
-      <polygon points="101,267 103,257 108,263" fill="#fff"/>
-      <polygon points="115,267 113,257 108,263" fill="#fff"/>
-      <circle cx="106" cy="272" r="1.3" fill="#1a1a24"/>
-      <circle cx="111" cy="272" r="1.3" fill="#1a1a24"/>
-      <ellipse cx="108.5" cy="275" rx="0.9" ry="0.6" fill="#fbb6ce"/>
-      <path d="M 145 280 Q 155 268 152 285" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <ellipse cx="125" cy="285" rx="24" ry="5" fill="#000" opacity="0.18"/>
+      <ellipse cx="126" cy="278" rx="22" ry="12" fill="#fff"/>
+      <ellipse cx="117" cy="275" rx="8" ry="4" fill="#f0f0f0"/>
+      <ellipse cx="133" cy="275" rx="8" ry="4" fill="#f0f0f0"/>
+      <ellipse cx="109" cy="275" rx="8" ry="4" fill="#f0f0f0"/>
+      <ellipse cx="121" cy="283" rx="6" ry="3" fill="#f0f0f0"/>
+      <ellipse cx="100" cy="275" rx="4" ry="8" fill="#ececec"/>
+      <ellipse cx="116" cy="275" rx="4" ry="8" fill="#ececec"/>
+      <circle cx="108" cy="271" r="10" fill="#fff"/>
+      <ellipse cx="104" cy="269" rx="3" ry="4.5" fill="#ececec"/>
+      <ellipse cx="112" cy="269" rx="3" ry="4.5" fill="#ececec"/>
+      <circle cx="108" cy="271" r="8.5" fill="#fff"/>
+      <circle cx="105.5" cy="270" r="1.4" fill="#1a1a24"/>
+      <circle cx="110.5" cy="270" r="1.4" fill="#1a1a24"/>
+      <circle cx="105.8" cy="269.6" r="0.5" fill="#fff"/>
+      <circle cx="110.8" cy="269.6" r="0.5" fill="#fff"/>
+      <ellipse cx="108" cy="273.5" rx="2.2" ry="1.6" fill="#1a1a24"/>
+      <ellipse cx="108" cy="274.5" rx="1" ry="0.7" fill="#555"/>
+      <path d="M 143 279 Q 152 262 148 282" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M 143 279 Q 148 268 146 280" stroke="#f0f0f0" stroke-width="3" fill="none" stroke-linecap="round"/>
       <circle cx="345" cy="284" r="3" fill="#f472b6"/>
       <circle cx="355" cy="282" r="3" fill="#fbbf24"/>
       <circle cx="365" cy="284" r="3" fill="#a78bfa"/>`;
